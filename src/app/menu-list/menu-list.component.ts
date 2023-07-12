@@ -7,9 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MenuListComponent  implements OnInit{
   menus = [
-    { name: 'Pizza', price: 10, description: 'Fromage, sauce tomate, pepperoni', image: 'assets/pizza.jpg', desserts: 'Tarte au Pomme', starters: 'Salade' },
-    { name: 'Pasta', price: 12, description: 'Pate à la sauce tomate avec des boulettes de viande haché', image: 'assets/pasta.jpg', desserts: 'Tiramisu', starters: 'Salade' },
-    { name: 'Salad', price: 8, description: 'Laitue avec poulets, tomates et parmesan', image: 'assets/salad.jpg', desserts: 'Flan', starters: 'bruschetta' },
+    { name: 'Pizza', price: 23, description: 'Fromage, sauce tomate, pepperoni', image: 'assets/pizza.jpg', desserts: 'Tarte au Pomme', starters: 'Salade' },
+    { name: 'Pates', price: 28, description: 'Pate à la sauce tomate avec des boulettes de viande haché', image: 'assets/pasta.jpg', desserts: 'Tiramisu', starters: 'Salade' },
+    { name: 'Salades', price: 16, description: 'Laitue avec poulets, tomates et parmesan', image: 'assets/salad.jpg', desserts: 'Flan', starters: 'bruschetta' },
   ];
 
   selectedMenu: any;
