@@ -1,0 +1,15 @@
+.nav-tabs {
+  background-color: white;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+a {
+  color: rgb(158, 158, 158);
+  font-size: 18px;
+}
+
+a:hover {
+  color: black;
+}

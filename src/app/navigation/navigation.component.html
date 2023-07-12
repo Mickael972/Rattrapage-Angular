@@ -1,0 +1,15 @@
+<ul appHover ngbNav #nav="ngbNav" [(activeId)]="active" class="nav-tabs">
+  <li [ngbNavItem]="1">
+    <a ngbNavLink routerLink="/menu">Menu</a>
+    <ng-template ngbNavContent> </ng-template>
+  </li>
+  <li [ngbNavItem]="2">
+    <a ngbNavLink routerLink="/reservation">Reservation</a>
+    <ng-template ngbNavContent> </ng-template>
+  </li>
+  <li [ngbNavItem]="3">
+    <a routerLink="/location" ngbNavLink>Location</a>
+    <ng-template ngbNavContent> </ng-template>
+  </li>
+</ul>
+<div [ngbNavOutlet]="nav" class="mt-2"></div>
