@@ -1,1 +1,9 @@
-<p>menu-list works!</p>
+<ul>
+    <li *ngFor="let menu of menus" (click)="onSelect(menu)">
+      <img [src]="menu.image" alt="{{menu.name}}" width="300">
+      {{menu.name}} - {{menu.price}}€
+    </li>
+  </ul>
+  
+  <app-menudetail [menu]="selectedMenu"></app-menudetail>
+  

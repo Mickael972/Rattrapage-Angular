@@ -1,0 +1,17 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #dee2e6;
+  }
+  
+  a {
+    color: #495057;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #212529;
+  }
+  

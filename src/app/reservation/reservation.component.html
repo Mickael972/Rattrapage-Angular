@@ -1,1 +1,16 @@
-<p>reservation works!</p>
+<form (submit)="onSubmit(email.value, phone.value, date.value)">
+    <label>
+      Email:
+      <input #email type="email" name="email">
+    </label>
+    <label>
+      Téléphone:
+      <input #phone type="tel" name="phone">
+    </label>
+    <label>
+      Date du repas:
+      <input #date type="date" name="date">
+    </label>
+    <input type="submit" value="Réserver">
+</form>
+  
